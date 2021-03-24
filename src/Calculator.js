@@ -9,9 +9,6 @@ export default function () {
 
   return (
     <div>
-      {/* <p>Value: {value}</p>
-      <p>operator: {operator}</p>
-      <p>Memory: {memory}</p> */}
       <Display value={value} setValue={setValue} />
       <Buttons
         setMemory={setMemory}
