@@ -1,2 +1,3 @@
 # react-ios-calculator
-Created with CodeSandbox
+
+Simple ios calculator built using react  
