@@ -1,0 +1,51 @@
+.container-div {
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 0px;
+  width: 250px;
+  height: 330px;
+}
+
+.input-area {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 80px;
+}
+
+input {
+  text-align: right;
+  background-color: rgb(63, 62, 62);
+  color: white;
+  font-size: 50px;
+  border: 1px;
+  caret-color: transparent;
+  outline: none !important;
+}
+
+button {
+  background-color: rgb(143, 143, 140);
+  color: white;
+  border: 1px solid black;
+  font-size: 25px;
+}
+
+.cal-body {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 70px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+
+.first-row-column {
+  background-color: #6d6b6b;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 120px 60px 70px;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.operator {
+  background-color: #ff9500;
+  color: white;
+}
