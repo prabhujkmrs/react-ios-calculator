@@ -27,6 +27,11 @@ button {
   color: white;
   border: 1px solid black;
   font-size: 25px;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .cal-body {
